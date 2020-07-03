@@ -1,0 +1,86 @@
+session1
+
+DB : normalization example ( userId , mobile) , indexes (id , mob, city)
+
+session 2
+
+computer networks : what happens when you type www.google.com
+
+
+session 3
+
+Mock Interview 
+1) x="001000" put all 0's to the left and 1's to the right inplace
+2) Given an array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements in place
+
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+
+3) Given an array A and a non negative integer k, find if there exists 2 indices i and j such that A[i] - A[j] = k. Just report a yes/no
+
+
+session 4
+\\\// write your code here...
+ x="0100011"
+ 
+ x =[0,1,0,0,0,1]
+ 
+ 
+ 
+ y = [12,50,0,6,8,7,0,0,1,0]
+            p
+              i
+      [12,50,6,8,7,0,0,0,1,0] 
+               p i
+              
+ o = [12,50,6,8,7,1,0,0,0,0]
+ 
+ void myfun(int arr[])
+ {
+     for(int i=0;i<arr.size();i++)
+     {
+         if(arr[i]==0)
+         count++;
+     }
+     for(int )
+ }
+ 
+ 
+ python - django web development framework - 
+ udemy - url shortener
+ git
+ push your code to github
+ 
+ 
+ unsorted array, need to sort with flip(i) 
+ x=[10,2,3,4,5]
+ 
+ flip(i)-> flip(2) -> 3 2 10 4 5
+ 2,3,4,5,10
+ 
+ 
+ 6360479510
+ 
+ void myfun(int arr[])
+ {
+     int p=0,flag=0;
+     for(int i=0;i<arr.size();i++)
+     {
+        if(A[i]==0)
+         {
+             
+             swap(A[i],A[p]);
+             
+         }
+         else
+         {
+             if()
+            p++;
+         
+     }
+ }
+ void 
+
+ 
+ 
+ 
