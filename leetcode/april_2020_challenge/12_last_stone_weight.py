@@ -28,9 +28,17 @@ Note:
 1 <= stones.length <= 30
 1 <= stones[i] <= 1000
 
-'''
 
-import heapq
+heapq - min heap
+
+heapify – This function converts a regular list to a heap. In the resulting heap the smallest element gets pushed to the index position 0. But rest of the data elements are not necessarily sorted.
+heappush – This function adds an element to the heap without altering the current heap.
+heappop – This function returns the smallest data element from the heap.
+heapreplace – This function replaces the smallest data element with a new value supplied in the function.
+
+'''
+from typing import List
+from heapq import heapify,heappush,heappop
 
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
@@ -59,8 +67,11 @@ class Solution:
             return 0
         else:
             return -1*heappop(heap)
-                
-                
+
+
+
+sol = Solution()                
+print(sol.lastStoneWeight([2,7,4,1,8,1]))               
 
         
         

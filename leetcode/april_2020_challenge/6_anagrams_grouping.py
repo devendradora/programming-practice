@@ -15,6 +15,7 @@ Note:
 All inputs will be in lowercase.
 The order of your output does not matter.
 '''
+from typing import List
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
@@ -29,7 +30,14 @@ class Solution:
                 final_ans_dict[sorted_strs[i]] = []
             final_ans_dict.get(sorted_strs[i]).append(strs[i]) 
          
-        return [ v for v in final_ans_dict.values()]       
+        return [ v for v in final_ans_dict.values()]    
+
+
+sol = Solution()
+strs=["eat", "tea", "tan", "ate", "nat", "bat"]
+print("Grouped anagrams {}".format(sol.groupAnagrams(strs)))
+
+
             
         
       

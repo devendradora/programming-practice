@@ -1,5 +1,6 @@
 '''
-Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order 
+of the non-zero elements.
 
 Example:
 
@@ -11,6 +12,7 @@ You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 
 '''
+from typing import List
 
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
@@ -22,6 +24,12 @@ class Solution:
         
         for j in range(cnt, len(nums)):
             nums[j] = 0
+
+        print(nums)    
+
+sol = Solution()
+nums=[0,1,0,3,12]
+sol.moveZeroes(nums)            
         
             
                 
