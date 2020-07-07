@@ -1,5 +1,6 @@
 '''
-Queue is built-in module of Python which is used to implement a queue. queue.Queue(maxsize) initializes a variable to a maximum size of maxsize. A maxsize of zero ‘0’ means a infinite queue. This Queue follows FIFO rule.
+Queue is built-in module of Python which is used to implement a queue. queue.Queue(maxsize) initializes a variable to
+a maximum size of maxsize. A maxsize of zero ‘0’ means a infinite queue. This Queue follows FIFO rule.
 There are various functions available in this module:
 
 maxsize – Number of items allowed in the queue.
