@@ -54,17 +54,18 @@ class Solution:
 			if self.is_safe_position_for_queen(board,rows, cols, cur_row,j):
 				board[cur_row][j]='Q'
 				
-				self.solve_by_backtrack(board,rows,cols,cur_row+1,result)
+				is_solved = self.solve_by_backtrack(board,rows,cols,cur_row+1,result)
 
-				#if uncommented, then it gives only 1 solution
-				#if self.solve_by_backtrack(board,rows,cols,cur_row+1,result):
-				#	return True
+				# uncomment below if you want only 1 solution
+				# if is_solved:
+				# 	return True
 				
 				# Placing queen in cur_row,j column is not safe,and does't lead to a solution
 				board[cur_row][j]='.'	
 
 		# If the queen cannot be placed in any colum for current row
-		return False			
+		return False
+
 
 
 
