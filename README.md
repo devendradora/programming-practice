@@ -10,8 +10,19 @@
 
 
 # Leetcode 
-* April 2020
+* April 2020 Challenge
 	*  1_single_number involves using XOR
 	*  2_happy_number involves one approach of finding cyclic pattern of number 4
 	*  13_contigious_binary_array concept of storing count as key and index of array as value in hashmap to find maxlength of equal 0's and 1's is good
 	*  15_product_of_array_except_itself's concept without division is good
+
+* May 2020 Challenge
+* June 2020 Challenge
+* July 2020 challenge
+
+
+
+# Youtune Channels
+* Tushar Roy - Coding Made Simple
+
+
