@@ -54,6 +54,7 @@ class Solution:
 
 	def fibonacci_dp_top_down(self,n: int) -> int:
 		f=[None]*(n+1)
+		print(f)
 		if n<0:
 			print("Incorrect input") 
 		elif n==0 or n ==1: 

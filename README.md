@@ -1,5 +1,7 @@
 # programming-practice
 
+dEvendr@1
+
 # General
 * Reversing Linked list by recursion will help you to understand changing pointers and recursion better
 * Binary Tree's Post Order Traversal by iteration is not straight forward
@@ -19,10 +21,11 @@
 * May 2020 Challenge
 * June 2020 Challenge
 * July 2020 challenge
+	* 12_reverse_bits : Time complexity is O(1) but it seems O(n) at first look
 
 
 
-# Youtune Channels
+# Youtube Channels
 * Tushar Roy - Coding Made Simple
 
 
