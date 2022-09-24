@@ -41,7 +41,7 @@ class Solution:
 				max_sum_cur = nums[i]
 				start_temp = i 
 
-			if max_sum_so_far < max_sum_cur:
+			if max_sum_cur > max_sum_so_far:
 				max_sum_so_far = max_sum_cur 
 				start = start_temp       		
 				end=i

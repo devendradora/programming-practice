@@ -90,9 +90,7 @@ class Solution:
 		#T: O(n*W) As for every weight element we traverse through all weight capacities 1<=w<=W.
 		#S: O(n*W)
 		# consider all the possible weights from 0 to W as columns  and the input item weights as rows
-		dp = [[0]*(W+1) for _ in range(n+1)] 
-
-
+		dp = [[0]*(W+1) for _ in range(n+1)]
 		for i in range(n+1):
 			for w in range(W+1):
 				if i==0 or w == 0 :

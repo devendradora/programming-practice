@@ -24,10 +24,8 @@ class Solution:
 		num2 = 1
 		if n < 0: 
 			print("Incorrect input") 
-		elif n == 0: 
-			return num1 
-		elif n == 1: 
-			return num2 
+		elif n == 0 or n == 1: 
+			return n 
 		else: 
 			for i in range(2,n+1): 
 				sum = num1 + num2
